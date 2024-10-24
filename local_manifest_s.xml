@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- TWRP source code -->
+<!--  <project path="bootable/recovery-twrp" name="TeamWin/android_bootable_recovery" remote="github" revision="android-11"/> -->
+
+  <!-- Samsung MSM8917 common repos -->
+  <project path="device/samsung/msm8917-common" name="kreciorek/android_device_samsung_msm8917-common-ul" remote="github" revision="main"/>
+  <project path="kernel/samsung/msm8917" name="kreciorek/android_kernel_samsung_msm8917-ul" remote="github" revision="19.1-AUG24"/>
+  <project path="vendor/samsung" name="Gabboxl/proprietary_vendor_samsung-msm8917" remote="github" revision="main"/>
+
+  <!-- LineageOS repos -->
+  <project path="external/sony/boringssl-compat" name="kreciorek/android_external_sony_boringssl-compat" remote="github" revision="lineage-19.1"/>
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-19.1"/>
+
+
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-19.1"/>
+
+  <!-- safetynet fix -->
+<!--  <remove-project name="platform/system/security"/>
+  <project path="system/security" name="Gabboxl/android_system_security" groups="pdk" remote="github" revision="rvc" /> -->
+  
+  
+   
+  
+  <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" revision="lineage-16.0" />
+  
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool"  revision="lineage-18.1"/>
+  
+
+  <!-- Grand Prime specific trees -->
+  <project path="device/samsung/j4primelte" name="kreciorek/android_device_samsung_j4primelte-ul" remote="github" revision="19.1-AUG24"/>
+
+  <project path="device/samsung/j6primelte" name="kreciorek/android_device_samsung_j6primelte-ul" remote="github" revision="19.1-AUG24"/>
+  
+</manifest
